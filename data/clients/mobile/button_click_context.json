@@ -1,0 +1,7 @@
+{
+    "schema": "mobile_event_trigger/jsonschema/1-0-0",
+    "description": "Button click context for iOS and Android",
+    "data": {
+        "trigger": "button_click"
+    }
+}

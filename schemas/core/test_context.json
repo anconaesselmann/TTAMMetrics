@@ -1,0 +1,20 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "Context added when testing",
+    "self": {
+        "name": "test_context",
+        "format": "jsonschema",
+        "version": "1-0-0"
+    },
+    "type": "object",
+    "properties": {
+        "test_email": {
+            "type": "string"
+        },
+        "is_tester": {
+            "type": "boolean"
+        }
+    },
+    "required": ["test_email", "is_tester"],
+    "additionalProperties": false
+}

@@ -1,0 +1,21 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "Information about the device that sent the event",
+    "self": {
+        "name": "app_context",
+        "format": "jsonschema",
+        "version": "1-0-0"
+    },
+    "type": "object",
+    "properties": {
+        "os": {
+            "type": "string",
+            "enum": ["iOS", "android", "web"]
+        },
+        "version": {
+            "type": "string"
+        }
+    },
+    "required": ["os, version"],
+    "additionalProperties": false
+}

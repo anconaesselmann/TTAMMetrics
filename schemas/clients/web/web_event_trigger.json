@@ -1,0 +1,18 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "How the event was triggered",
+    "self": {
+        "name": "web_event_trigger",
+        "format": "jsonschema",
+        "version": "1-0-0"
+    },
+    "type": "object",
+    "properties": {
+        "trigger": {
+            "type": "string",
+            "enum": ["button_click", "screen_view", "hover"]
+        }
+    },
+    "required": ["trigger"],
+    "additionalProperties": false
+}

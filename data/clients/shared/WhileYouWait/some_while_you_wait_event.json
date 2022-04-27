@@ -1,0 +1,7 @@
+{
+    "schema": "event/jsonschema/1-0-0",
+    "description": "This is here to say that we might want to group events by feature?"
+    "data": {
+        "label": "login_button_clicked"
+    }
+}
